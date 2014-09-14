@@ -1048,6 +1048,14 @@ HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
 		margin-left: 25px;
 	}
 
+        .about-us .contact h4 {
+                margin-left: 30px;
+        }
+
+        .about-us .contact p {
+                margin-left: 30px;
+        }
+
 	.about-us .audio-block {
 		position: relative;
 		top: -10px;
