@@ -1,5 +1,8 @@
 # Site settings
 
+facebook_url: http://www.facebook.com/transgress.press
+twitte_url: http://twitter.com/trans_books
+
 message_404: "Head back to Transgress Press"
 
 # Build settings
