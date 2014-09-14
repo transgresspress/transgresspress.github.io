@@ -1,0 +1,50 @@
+.search-page .no-results-container form .line,
+.search-page .no-results-container form label,
+footer .footer-bottom .bottom-footer-menu li,
+footer .footer-bottom .bottom-footer-menu,
+header .search .drop-search .button,
+header .search .drop-search label,
+header .search .drop-search .line,
+.audio-block .donate-button span,
+footer .footer-bottom .copyright,
+.homepage .big-title-news span,
+footer .block.contact .address,
+.audio-block .donate-button a,
+footer .block.contact .map,
+.category-page .author,
+.category-page .bull,
+.category-page .link,
+.formats-bar .button,
+.formats-bar .icon,
+.formats-bar span,
+.social-buttons li,
+.category-menu li,
+.book-list ul li,
+.rating strong,
+.rating span,
+.rating ul,
+.rating li {
+	display: inline;
+}
+
+footer .footer-bottom .bottom-footer-menu li {
+	margin: 0 3px;
+}
+
+.drop-menu {
+	background: #5e4c4a;
+	top: 53px;
+}
+
+.rating ul {
+	top: 4px;
+}
+
+footer .block.social form .button {
+	padding: 9px 0;
+	margin-top: 1px;
+}
+
+.audio-block .donate-button span {
+	padding: 13px 22px;
+}
