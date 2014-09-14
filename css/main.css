@@ -874,6 +874,7 @@ HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
 		z-index: 10;
 		*zoom: 1;
 		padding-bottom: 12px;
+                padding-left: 12px;
 	}
 
 	.newsletter-block form h3 {
@@ -887,7 +888,8 @@ HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
 	.newsletter-block .line {
 		margin: 0;
 		text-align: right;
-		margin: 0 30px;
+                align: center;
+		margin: 30px 30px 30px 30px;
 	}
 
 	.newsletter-block .text {
