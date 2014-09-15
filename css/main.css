@@ -190,7 +190,7 @@ HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
 		}
 
 		nav > ul > li > a {
-			background: #260a07;
+			background: blue;
 			color: #ffffff;
 			display: block;
 			font-size: 18px;
@@ -199,15 +199,14 @@ HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
 		}
 
 		nav > ul > li > a:hover {
-			background: #d9631e;
+			background: green;
 			color: #ffffff;
 			text-shadow: none;
 		}
 
 		nav .current {
-			background: #f2ca52;
-			color: #260a07;
-			text-shadow: 1px 1px 0 #ffffff;
+			background: green;
+			color: #ffffff;
 		}
 
 		.drop-menu {
@@ -218,7 +217,7 @@ HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
 			width: 130%;
 			height: 0;
 			overflow: hidden;
-			background: rgba(38,10,7,.5);
+                        background: rgba(38,10,7,.5);
 
 			opacity: 0;
 			filter:alpha(opacity=0);
@@ -238,7 +237,7 @@ HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
 		}
 
 		.drop-menu a {
-			background: #d9631e;
+			background: blue;
 			color: #ffffff;
 			display: inline-block;
 			font-size: 18px;
@@ -257,7 +256,7 @@ HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
 		}
 
 		nav > ul > li:hover .drop-menu a:hover {
-			background: #260a07;
+			background: green;
 			padding: 16px 25px;
 		}
 	/* end menu */
