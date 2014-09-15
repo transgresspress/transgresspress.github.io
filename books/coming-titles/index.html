@@ -14,10 +14,12 @@ title: Books | Transgress Press
                                         {% if book.is_published == false %}
                                                        <li>
 						            <article>
+                                                                {% if book.has_image %}
 							        <div class="book-image">
 									<img src="/img/books/{{ book.image_file }}" alt="" width=205 height=305 />
 									{% if book.is_new %} <div class="banner"><img src="/img/banner-new.png" alt="" /></div><!-- banner --> {% endif %}
-							</div><!-- book image -->
+							        </div><!-- book image -->
+                                                                {% endif %}
 
 							<div class="dnescription-book">
 								<div class="title">
