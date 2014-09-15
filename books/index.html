@@ -8,29 +8,29 @@ title: Books | Transgress Press
 			</div><!-- page title -->
 
 			<div class="container">
-				<ul class="category-listing">
-					<li>
-						<article>
-							<div class="book-image">
-								<a href="">
-									<img src="/img/books/book_manning_up.jpg" alt="" width=205 height=305 />
-									<div class="banner"><img src="/img/banner-new.png" alt="" /></div><!-- banner -->
-								</a>
+				<ul class="category-listing">{% for book in site.data.books %}
+
+                                                       <li>
+						            <article>
+							        <div class="book-image">
+								    <a href="/books/book.url_stub">
+									<img src="/img/books/{{ book.image_file }}" alt="" width=205 height=305 />
+									{% if book.is_new %} <div class="banner"><img src="/img/banner-new.png" alt="" /></div><!-- banner --> {% endif %}
+								    </a>
 							</div><!-- book image -->
 
 							<div class="dnescription-book">
 								<div class="title">
-									<h1><a href="/books/manning-up"> MANNING UP <span>( 277 pages )</span></a></h1>
-									<div class="author"><a href="">Edited by Zander Keig & Mitch Kellaway <span class="genre">(softcover)</span></a></div>
+									<h1><a href="/books/{{ books.url_stub }}"> {{ book.title }} <span>( {{ book.num_pages }} pages )</span></a></h1>
+									<div class="author"><a href="">{{ book.author_or_editor }} <span class="genre">({% if book.is_hardcover %} hardcover {% else %} softcover {% endif %})</span></a></div>
 									<span class="bull">&bull;</span><!-- bull separator -->
-									<a href="/books/manning-up" target="_blank" class="link">{{ site.url }}/manning-up</a>
+									<a href="/books/{{ book.url_stub }}" target="_blank" class="link">{{ site.url }}/{{ book.url_stub }}</a>
 
 								</div><!-- title -->
 
 								<p class="description">
 									<strong>description:</strong>
-                                                                            Twenty-seven men who transitioned from female to male discuss their roles as male community members: fathers, sons, brothers, husbands, boyfriends, friends, and mentors. Not since Max Wolf Valerio’s The Testosterone Files and Jamison Green’s 
-Becoming a Visible Man has nonfiction seen such thorough and sensitive explorations of manhood, masculinity, and male embodiment—and never in a collection with such a diversity of voices. Contributors offer an incredible range of cultural, class, ethnic, spiritual, and generational backgrounds. Their work addresses topics including birthing and raising children, gay male sexuality, facing racism, and finding solace in deeply held religious beliefs. Contributors include established writers such as Valerio, Aaron Devor (author of FTM: Female-to-Male Transsexuals in Society) and Ryan Sallans (author of Second Son), as well as exciting new authors. 
+                                                                        {{ book.description }}
 								</p><!-- description text -->
 							</div><!-- description book -->
 
@@ -38,223 +38,7 @@ Becoming a Visible Man has nonfiction seen such thorough and sensitive explorati
 						</article>
 					</li>
 
-					<li>
-						<article>
-							<div class="book-image">
-								<a href="">
-									<img src="/img/book2.jpg" alt="" />
-								</a>
-							</div><!-- book image -->
-
-							<div class="description-book">
-								<div class="title">
-									<h1><a href="04.BookSingleViewPage.PagesPlus.html">DENNIS LEHANE / LIVE BY NIGHT<span> ( 342 pages )</span></a></h1>
-									<div class="author"><a href="">jhon doe <span class="genre">(hardcover)</span></a></div>
-									<span class="bull">&bull;</span><!-- bull separator -->
-									<a href="" class="link">www.authorwebsite.com</a>
-
-									<div class="count-book">
-										<span>322</span>
-										<small>books</small>
-									</div><!-- count book -->
-								</div><!-- title -->
-
-								<p class="description">
-									<strong>description:</strong>
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet a consequuntur inventore non alias ipsum porro totam praesentium. Quo nam voluptas obcaecati voluptatibus necessitatibus laudantium et quis optio sit deleniti.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta asperiores quaerat beatae cumque placeat officia ut at sunt autem quasi amet consequuntur perferendis consequatur labore provident incidunt repellat? Voluptas quia.
-								</p><!-- description text -->
-							</div><!-- description book -->
-
-							<div class="buttons">
-								<div class="rating">
-									<strong>rating:</strong>
-									<ul>
-										<li><a>&nbsp;</a></li>
-										<li><a>&nbsp;</a></li>
-										<li><a>&nbsp;</a></li>
-										<li><a>&nbsp;</a></li>
-										<li class="current"><a>&nbsp;</a></li>
-									</ul>
-									<span class="nr-votes">(231)</span>
-								</div><!-- rating -->
-
-								<div class="formats-bar">
-									<div class="icon"><img src="/img/audio-icon.png" alt="" /></div>
-									<a href="" class="button img listen"><span>listen</span></a>
-									<span class="text">make a DONATION or</span>
-									<a href="" class="button img download"><span>download</span><small>(53kb)</small></a>
-								</div><!-- formats bar -->
-
-								<div class="clear">&nbsp;</div><!-- clear -->
-							</div><!-- buttons -->
-
-							<div class="clear">&nbsp;</div><!-- clear -->
-						</article>
-					</li>
-
-					<li>
-						<article>
-							<div class="book-image">
-								<a href="">
-									<img src="/img/book3.jpg" alt="" />
-									<div class="banner"><img src="/img/banner-limited.png" alt="" /></div><!-- banner -->
-								</a>
-							</div><!-- book image -->
-
-							<div class="description-book">
-								<div class="title">
-									<h1><a href="04.BookSingleViewPage.PagesPlus.html">BILLY LYNN’S LONG HALFTIME WALK <span>( 234 pages )</span></a></h1>
-									<div class="author"><a href="">ben fountain <span class="genre">(hardcover)</span></a></div>
-									<span class="bull">&bull;</span><!-- bull separator -->
-									<a href="" class="link">www.authorwebsite.com</a>
-
-									<div class="count-book">
-										<span>302</span>
-										<small>books</small>
-									</div><!-- count book -->
-								</div><!-- title -->
-
-								<p class="description">
-									<strong>description:</strong>
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet a consequuntur inventore non alias ipsum porro totam praesentium. Quo nam voluptas obcaecati voluptatibus necessitatibus laudantium et quis optio sit deleniti.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta asperiores quaerat beatae cumque placeat officia ut at sunt autem quasi amet consequuntur perferendis consequatur labore provident incidunt repellat? Voluptas quia.
-								</p><!-- description text -->
-							</div><!-- description book -->
-
-							<div class="buttons">
-								<div class="rating">
-									<strong>rating:</strong>
-									<ul>
-										<li><a>&nbsp;</a></li>
-										<li><a>&nbsp;</a></li>
-										<li><a>&nbsp;</a></li>
-										<li><a>&nbsp;</a></li>
-										<li class="current"><a>&nbsp;</a></li>
-									</ul>
-									<span class="nr-votes">(231)</span>
-								</div><!-- rating -->
-
-								<div class="formats-bar">
-									<div class="icon"><img src="/img/audio-icon.png" alt="" /></div>
-									<a href="" class="button img listen"><span>listen</span></a>
-									<span class="text">make a DONATION or</span>
-									<a href="" class="button img download"><span>download</span><small>(53kb)</small></a>
-								</div><!-- formats bar -->
-
-								<div class="clear">&nbsp;</div><!-- clear -->
-							</div><!-- buttons -->
-
-							<div class="clear">&nbsp;</div><!-- clear -->
-						</article>
-					</li>
-
-					<li>
-						<article>
-							<div class="book-image">
-								<a href="">
-									<img src="/img/book4.jpg" alt="" />
-									<div class="banner"><img src="/img/banner-new.png" alt="" /></div><!-- banner -->
-								</a>
-							</div><!-- book image -->
-
-							<div class="description-book">
-								<div class="title">
-									<h1><a href="04.BookSingleViewPage.PagesPlus.html">THE STRANGE CASE OF Dr. JEKYLL & HYDE <span>( 654 pages )</span></a></h1>
-									<div class="author"><a href="">jhon doe <span class="genre">(hardcover)</span></a></div>
-									<span class="bull">&bull;</span><!-- bull separator -->
-									<a href="" class="link">www.authorwebsite.com</a>
-
-									<div class="count-book">
-										<span>32</span>
-										<small>books</small>
-									</div><!-- count book -->
-								</div><!-- title -->
-
-								<p class="description">
-									<strong>description:</strong>
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet a consequuntur inventore non alias ipsum porro totam praesentium. Quo nam voluptas obcaecati voluptatibus necessitatibus laudantium et quis optio sit deleniti.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta asperiores quaerat beatae cumque placeat officia ut at sunt autem quasi amet consequuntur perferendis consequatur labore provident incidunt repellat? Voluptas quia.
-								</p><!-- description text -->
-							</div><!-- description book -->
-
-							<div class="buttons">
-								<div class="rating">
-									<strong>rating:</strong>
-									<ul>
-										<li><a>&nbsp;</a></li>
-										<li class="current"><a>&nbsp;</a></li>
-										<li><a>&nbsp;</a></li>
-										<li><a>&nbsp;</a></li>
-										<li><a>&nbsp;</a></li>
-									</ul>
-									<span class="nr-votes">(231)</span>
-								</div><!-- rating -->
-
-								<div class="formats-bar">
-									<div class="icon"><img src="/img/audio-icon.png" alt="" /></div>
-									<a href="" class="button img listen"><span>listen</span></a>
-									<span class="text">make a DONATION or</span>
-									<a href="" class="button img download"><span>download</span><small>(53kb)</small></a>
-								</div><!-- formats bar -->
-
-								<div class="clear">&nbsp;</div><!-- clear -->
-							</div><!-- buttons -->
-
-							<div class="clear">&nbsp;</div><!-- clear -->
-						</article>
-					</li>
-
-					<li>
-						<article>
-							<div class="book-image">
-								<a href="">
-									<img src="/img/book5.jpg" alt="" />
-								</a>
-							</div><!-- book image -->
-
-							<div class="description-book">
-								<div class="title">
-									<h1><a href="04.BookSingleViewPage.PagesPlus.html">BILLY LYNN’S LONG HALFTIME WALK <span>( 320 pages )</span></a></h1>
-									<div class="author"><a href="">ben fountain <span class="genre">(hardcover)</span></a></div>
-									<span class="bull">&bull;</span><!-- bull separator -->
-									<a href="" class="link">www.authorwebsite.com</a>
-
-									<div class="count-book">
-										<span>302</span>
-										<small>books</small>
-									</div><!-- count book -->
-								</div><!-- title -->
-
-								<p class="description">
-									<strong>description:</strong>
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet a consequuntur inventore non alias ipsum porro totam praesentium. Quo nam voluptas obcaecati voluptatibus necessitatibus laudantium et quis optio sit deleniti.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta asperiores quaerat beatae cumque placeat officia ut at sunt autem quasi amet consequuntur perferendis consequatur labore provident incidunt repellat? Voluptas quia.
-								</p><!-- description text -->
-							</div><!-- description book -->
-
-							<div class="buttons">
-								<div class="rating">
-									<strong>rating:</strong>
-									<ul>
-										<li class="bad"><a>&nbsp;</a></li>
-										<li class="bad"><a>&nbsp;</a></li>
-										<li class="bad"><a>&nbsp;</a></li>
-										<li class="bad"><a>&nbsp;</a></li>
-										<li class="bad"><a>&nbsp;</a></li>
-									</ul>
-									<span class="nr-votes">(231)</span>
-								</div><!-- rating -->
-
-								<div class="formats-bar">
-									<div class="icon"><img src="/img/audio-icon.png" alt="" /></div>
-									<a href="" class="button img listen"><span>listen</span></a>
-									<span class="text">make a DONATION or</span>
-									<a href="" class="button img download"><span>download</span><small>(53kb)</small></a>
-								</div><!-- formats bar -->
-
-								<div class="clear">&nbsp;</div><!-- clear -->
-							</div><!-- buttons -->
-
-							<div class="clear">&nbsp;</div><!-- clear -->
-						</article>
-					</li>
+                                                       {% endfor  %}
 				</ul>
 			</div><!-- container -->
 		</div><!-- main -->
