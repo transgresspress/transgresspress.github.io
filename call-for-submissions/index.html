@@ -7,25 +7,30 @@ title: Call for Submissions | Transgress Press
 			</div><!-- page title -->
 
 			<div class="container">
+                            <div class="cfp">
 				<ul class="category-listing">
                                     {% for cfp in site.data.cfps %}
-
-                                                       <li>
+                                    {% if cfp.is_open %}
+                                    <li>
 							<div class="dnescription-book">
 								<div class="title">
 									<h1><a href="/call-for-submissions/{{ cfp.url_stub }}"> {{ cfp.title }}</a></h1>
-									<div class="author"><a href="">{{ cfp.author_or_editor }}<span class="genre">, {{ cfp.publisher }}</span></a></div>
+									<div class="author"><a href="">{{ cfp.author_or_editor }}</a></div>
 									<span class="bull">&bull;</span><!-- bull separator -->
 									<a href="/call-for-submissions/{{ cfp.url_stub }}" class="link">{{ site.url }}/call-for-submissions/{{ cfp.url_stub }}</a>
 
 								</div><!-- title -->
+                                                                <p class="description">
+                                                                        {{ cfp.teaser }} <a href="/call-for-submissions/{{ cfp.url_stub }}">Find out more</a>
+                                                                </p>
 							</div><!-- description book -->
 
 							<div class="clear">&nbsp;</div><!-- clear -->
 						</article>
-					</li>
-
-                                                       {% endfor  %}
+                                     </li>
+                                     {% endif %}
+                                     {% endfor  %}
 				</ul>
+                            </div><!-- cfp -->
 			</div><!-- container -->
 		</div><!-- main -->
