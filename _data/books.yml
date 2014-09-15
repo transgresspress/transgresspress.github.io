@@ -1,35 +1,79 @@
 - title: LETTERS FOR MY SISTERS&#058; Transitional Wisdom in Retrosepct
+  is_published: true
+  is_new: true
   image_file: book_letters_for_my_sisters.png
   num_pages: 146
   author_or_editor: Edited by Andrea James & Deanne Thornton
   url_stub: letters-for-my-sisters
   description: LETTERS FOR MY SISTERS is an anthology of collected wisdom by and for transgender women. This groundbreaking collection of letters tells raw, heartfelt stories of childhood, transitioning, and becoming women in a world where acceptance is sometimes elusive and costly. Brave, boldly vulnerable and revealing, this collection adds to a growing body of literature where trans people tell their own stories as they lived them. Each writer addresses one simple question&#058; If you could write just one letter to someone beginning transition, or to your younger pre-transition self, what would you say? Would you reassure or warn them, or lay your life out in vivid detail for them to draw their own conclusions? Would you have a secret to tell, a hard-won truth or an unexpected triumph to share? LETTERS FOR MY SISTERS is an anthology of collected wisdom by and for transgender women. This groundbreaking collection of letters tells raw, heartfelt stories of childhood, transitioning, and becoming women in a world where acceptance is sometimes elusive and costly.
   is_hardcover: false
-  is_new: true
 
 - title: MANNING UP&#058; Transsexual Men on Finding Brotherhood, Family & Themselves
+  is_published: true
+  is_new: true
   image_file: book_manning_up.jpg
   num_pages: 277
   author_or_editor: Edited by Zander Keig & Mitch Kellaway
   url_stub: manning-up
   description: Twenty-seven men who transitioned from female to male discuss their roles as male community members&#058; fathers, sons, brothers, husbands, boyfriends, friends, and mentors. Not since Max Wolf Valerio’s <em>The Testosterone Files</em> and Jamison Green’s <em>Becoming a Visible Man</em> has nonfiction seen such thorough and sensitive explorations of manhood, masculinity, and male embodiment—and never in a collection with such a diversity of voices. Contributors offer an incredible range of cultural, class, ethnic, spiritual, and generational backgrounds. Their work addresses topics including birthing and raising children, gay male sexuality, facing racism, and finding solace in deeply held religious beliefs. Contributors include established writers such as Valerio, Aaron Devor (author of FTM&#058; Female-to-Male Transsexuals in Society) and Ryan Sallans (author of Second Son), as well as exciting new authors.
   is_hardcover: false
-  is_new: true
 
 - title: HUNG JURY&#058; Testimonies of Genital Surgery by Transsexual Men
+  is_published: true
+  is_new: false
   image_file: book_hung_jury.png
   num_pages: 192
   author_or_editor: Edited by Trystan T. Cotten
   url_stub: hung-jury
   description: This pioneering anthology released by Transgress Press is the first of its kind, presenting raw, unadulterated testimonies of transsexual men’s experiences of sex reassignment surgery. The collection offers a comprehensive understanding of why transsexual men choose genital surgery and its transformative impact on their lives.  Hung Jury has widespread appeal, catching the attention and interests of a wide and diverse readership looking to understand transsexuality, sex, and gender identity. Because the book breaks new ground in LGBT, gender, and feminist studies moreover, it is also an excellent read for courses taught in these academic fields.
   is_hardcover: false
-  is_new: false
 
 - title: LETTERS FOR MY BROTHERS&#058; Transitional Wisdom in Retrosepct
+  is_published: true
+  is_new: false
   image_file: book_letters_for_my_brothers.jpg
   num_pages: 168
   author_or_editor: Edited by Zander Keig & Megan M. Rohrer
   url_stub: letters-for-my-brothers
   description: In today's fast paced world, the internet can provide quick answers to personal questions. But when an individual raised by society to live, breathe and look at the world female eyes transitions to male, some of the most enlightening, helpful and profound advice can only come in retrospect. This paperback edition features a powerful new preface by Max Wolf Valerio, author of <em>The Testosterone Files</em>, and other essays from respected transmen mentors who share their wisdom of journeying into manhood.
   is_hardcover: false
+
+- title: GIVING IT RAW&#058; Nearly 30 Years with AIDS
+  is_published: false
   is_new: false
+  image_file: book_giving_it_raw.jpg
+  num_pages:
+  author_or_editor: By Francisco Iba&ntilde;ez-Carrasco
+  url_stub:
+  description: More info coming soon
+  is_hardcover:
+
+- title: STEALTH WORLD&#058; Hiding in Plain Sight
+  is_published: false
+  is_new: false
+  image_file: book_stealth_world.png
+  num_pages:
+  author_or_editor: Edited by BT and Cinderella
+  url_stub: 
+  description: In the pages of this book you are introduced to a group of people who define and describe themselves in all sorts of ways.  What we have in common is that we were born/living with the medical condition called transsexualism/intersex.  We are sometimes private and personal about this issue in our life. We’re challenging the notion and suggesting to the larger world to allow spaces for us to be private and involved if we so choose (or not).  There are many of us, and our numbers will never be counted.  Our lives and experiences are full and varied – we thought it was time to speak for ourselves.
+  is_hardcover:
+
+- title: transfigure
+  is_published: false
+  is_new: false
+  image_file: book_transfigure.jpg
+  num_pages:
+  author_or_editor: By Leon Mostovoy
+  url_stub:
+  description: Transfigure is a project of corporal self-expression, presented as an experimental, visual feast. The imagery portrays the complexity of gender and bodies and the ways in which these combinations may be surprising.
+  is_hardcover:
+
+- title: YOURS IN LIBERATION&#058; The Queer Life of Trans Pioneer Lou Sullivan
+  is_published: false
+  is_new: false
+  image_file: book_lou_sullivan.jpg
+  num_pages:    
+  author_or_editor: By Brice D. Smith           
+  url_stub:
+  description: In this compelling biography, Brice D. Smith illuminates the richness and complexity of LGBT history by reclaiming one of its most significant – and overlooked – historical figures. Female-born Lou Sullivan identified as a gay man when little was known about transgender people and gay FTMs (female-to-males) supposedly did not exist. A gay liberation veteran, casualty of the AIDS crisis, and founder of the transgender movement, Lou Sullivan unapologetically lived his truth and dedicated his life to helping others do the same. A tale of triumph and transgression, Yours in Liberation revolutionizes our understanding of gender identity and sexual orientation by contextualizing the tremendous social, medical, and personal obstacles Lou Sullivan overcame to embody his identity. This powerful narrative demonstrates why Lou Sullivan’s life and work continue to inspire us to live with integrity, embrace our authentic selves, and devote our lives to liberating one another.
+  is_hardcover:

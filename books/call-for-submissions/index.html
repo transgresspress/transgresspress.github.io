@@ -8,10 +8,8 @@ title: Books | Transgress Press
 			</div><!-- page title -->
 
 			<div class="container">
-				<ul class="category-listing">
+				<ul class="category-listing">{% for book in site.data.books %}
 
-                                    {% for book in site.data.books %}
-                                        {% if book.is_published %}
                                                        <li>
 						            <article>
 							        <div class="book-image">
@@ -39,8 +37,8 @@ title: Books | Transgress Press
 							<div class="clear">&nbsp;</div><!-- clear -->
 						</article>
 					</li>
-                                    {% endif %}
-                                  {% endfor  %}
+
+                                                       {% endfor  %}
 				</ul>
 			</div><!-- container -->
 		</div><!-- main -->
