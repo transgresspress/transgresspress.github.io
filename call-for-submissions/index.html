@@ -1,0 +1,31 @@
+---
+layout: books
+title: Call for Submissions | Transgress Press
+---
+			<div class="page-title">
+				<h2>call for submissions</h2>
+			</div><!-- page title -->
+
+			<div class="container">
+				<ul class="category-listing">
+                                    {% for cfp in site.data.cfps %}
+
+                                                       <li>
+							<div class="dnescription-book">
+								<div class="title">
+									<h1><a href="/call-for-submissions/{{ cfp.url_stub }}"> {{ cfp.title }}</a></h1>
+									<div class="author"><a href="">{{ cfp.author_or_editor }}<span class="genre">, {{ cfp.publisher }}</span></a></div>
+									<span class="bull">&bull;</span><!-- bull separator -->
+									<a href="/call-for-submissions/{{ cfp.url_stub }}" class="link">{{ site.url }}/call-for-submissions/{{ cfp.url_stub }}</a>
+
+								</div><!-- title -->
+							</div><!-- description book -->
+
+							<div class="clear">&nbsp;</div><!-- clear -->
+						</article>
+					</li>
+
+                                                       {% endfor  %}
+				</ul>
+			</div><!-- container -->
+		</div><!-- main -->

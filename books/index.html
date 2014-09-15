@@ -28,7 +28,7 @@ title: Books | Transgress Press
 									<h1><a href="/books/{{ books.url_stub }}"> {{ book.title }} <span>( {{ book.num_pages }} pages )</span></a></h1>
 									<div class="author"><a href="">{{ book.author_or_editor }} <span class="genre">({% if book.is_hardcover %} hardcover {% else %} softcover {% endif %})</span></a></div>
 									<span class="bull">&bull;</span><!-- bull separator -->
-									<a href="/books/{{ book.url_stub }}" target="_blank" class="link">{{ site.url }}/{{ book.url_stub }}</a>
+									<a href="/books/{{ book.url_stub }}" class="link">{{ site.url }}/books/{{ book.url_stub }}</a>
 
 								</div><!-- title -->
 
