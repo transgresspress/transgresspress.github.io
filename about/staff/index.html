@@ -2,25 +2,49 @@
 layout: books
 title: Staff & Editors | Transgress Press
 ---
-		<div class="main about-us" role="main">
+
+		<div class="main archives" role="main">
 			<div class="page-title">
 				<h2>about</h2>
-                                <small>staff & editors</small>
+				<small>staff & editors</small>
 			</div><!-- page title -->
 
-			<section class="container">
-				<article class="about">
-					<h3><span>a</span>We Are Unique</h3>
-					<p class="orange">
-                                            We practice a unique brand of social justice capitalism at Transgress Press. Our mission is to use entrepreneurial capitalism to support progressive thought and projects change conventional publishing practices and in empower communities and organizations.
-					</p>
-                                        <p>
-                                                <p>We donate forty percent (40%) of book sale profits to social justice organizations that work to empower marginalized communities and save our planet. Our rationale is that if we profit from other people’s lives and labor, then they should benefit materially from the appropriation.</p>
-                                                <p>We exclusively hire people who are structurally disadvantaged by social prejudice to manage the company and staff production teams. People who are systemically oppressed have more difficulty procuring and maintaining employment.</p>
-                                                <p>We pay authors fair market value for their productions. We are suspicious of the business practices that unnecessarily appropriate the fruits of people’s labor.</p>
-                                                <p>We allow authors to retain copyright ownership of their work. The notion of owning another person’s ideas and creativity is morally problematic and practically unnecessary.</p>
-                                        </p>
-				</article><!-- info about -->
+			<div class="container">
+
+				<div class="last-books">
+					<h2 class="title-list">Staff Affiliates</h2>
+
+					<ul class="archive-list">
+                                                {% for member in site.data.staff %}
+                                                {% if member.is_editor %}
+                                                <li>
+                                                        <span class="orange">{{ member.name }} - {{ member.position }}</span>
+                                                            <br />
+                                                            <img src="/img/staff/{{ member.image_file }}"><br />
+                                                            {{ member.description }}
+                                                </li>
+                                                {% endif %}
+                                                {% endfor %}
+					</ul>
+				</div><!-- last books -->
+
+				<div class="by-author">
+					<h2 class="title-list">Editorial Advisory Board</h2>
+
+					<ul class="archive-list">
+                                                {% for member in site.data.staff %}
+                                                {% if member.is_advisor %}
+                                                <li>
+                                                        <span class="orange">{{ member.name }}</span>
+                                                            <br />
+                                                            <img src="/img/staff/{{ member.image_file }}"><br />
+                                                            {{ member.description }}
+                                                </li>
+                                                {% endif %}
+                                                {% endfor %}
+					</ul>
+				</div><!-- by author -->
+
 				<div class="clear">&nbsp;</div><!-- clear -->
-			</section><!-- container -->
+			</div>
 		</div><!-- main -->

@@ -1713,15 +1713,12 @@ HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
 	}
 
 	.archive-list li {
-		margin: 10px 0;
-		list-style-image: url('../img/orange-raquo.png');
+		margin: 30px 0;
 		list-style-position: inside;
-		color: red;
 		line-height: 16px;
 	}
 
 	.archive-list a {
-		color: #31393d;
 		font-size: 16px;
 	}
 
