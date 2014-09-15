@@ -16,7 +16,7 @@ title: Books | Transgress Press
 						            <article>
                                                                 {% if book.has_image %}
 							        <div class="book-image">
-								    <a href="/books/book.url_stub">
+								    <a href="/books/{{ book.url_stub }}">
 									<img src="/img/books/{{ book.image_file }}" alt="" width=205 height=305 />
 									{% if book.is_new %} <div class="banner"><img src="/img/banner-new.png" alt="" /></div><!-- banner --> {% endif %}
 								    </a>
