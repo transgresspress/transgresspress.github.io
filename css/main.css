@@ -84,7 +84,7 @@ HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
 
 	.button {
 		border-radius: 3px;
-		background-image: linear-gradient(#df7222, #d3551a);
+		background-image: linear-gradient(green, green);
 		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#df7222, endColorstr=#d3551a);
 
 		font-size: 15px;
@@ -468,7 +468,7 @@ HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
 		}
 
 		.footer-categories-menu li:hover a {
-			color: #D9631E;
+			color: green;
 			margin-left: 7px;
 		}
 	/* end categories block */
@@ -506,7 +506,7 @@ HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
 			footer .block.social form .text {
 				width: 200px;
 				padding: 10px 5px;
-				color: #4d4d4d;
+                                color: #4d4d4d;
 			}
 
 			footer .block.social form .button {
