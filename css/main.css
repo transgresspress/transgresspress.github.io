@@ -44,7 +44,7 @@ HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
 	}
 
 	p a {
-		color: navy;
+		color: cornflowerblue;
 		transition:all 0.3s ease-in-out;
 	}
 
@@ -64,7 +64,7 @@ HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
 	textarea.text {
 		border-radius: 3px;
 		background-color: #fcfcfc;
-		border-bottom: 2px solid steelblue;
+		border-bottom: 2px solid cornflowerblue;
 		color: #dfdfdf;
 		font-size: 15px;
 		font-family: 'Signika', sans-serif;
@@ -454,7 +454,7 @@ HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
 		}
 
 		.footer-categories-menu li {
-			border-top: 1px solid green;
+			border-top: 1px solid navy;
 			list-style-image: url('../img/footer/orange-list-arrow.png');
 			list-style-position: inside;
 		}
@@ -551,6 +551,10 @@ HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
 			padding: 0 0 0 50px;
 		}
 
+		footer .block.cotact a {
+			color: cornflowerblue;
+		}
+
 		footer .block.contact h2 {
 			margin-bottom: 15px;
 		}
@@ -582,11 +586,12 @@ HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
 			font-size: 14px;
 			margin: 0 0 12px 0;
 		}
+
 	/* contact information */
 
 	/* footer boottom */
 		footer .footer-bottom {
-			background: url('../img/footer/bg-footer-bottom.jpg');
+			background: url('../img/footer/bg-footer-bottom.png');
 			box-shadow: 0 0 25px rgba(0,0,0,.24);
 			padding: 10px 0;
 		}
@@ -1143,7 +1148,7 @@ HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
 
 		/* author */
 		.category-listing .author a {
-			color: steelblue;
+			color: cornflowerblue;
 			font-size: 18px;
 			text-transform: uppercase;
 		}
@@ -1377,12 +1382,12 @@ HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
 
 			.single-view-page .single-view .title-book .author {
 				font-size: 18px;
-				color: steelblue;
+				color: cornflowerblue;
 				margin-top: 5px;
 			}
 
 			.single-view-page .single-view .title-book .author a {
-				color: steelblue;
+				color: cornflowerblue;
 			}
 
 			.single-view-page .single-view .title-book a:hover {
@@ -1390,7 +1395,7 @@ HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
 			}
 
 			.single-view-page .single-view .title-book .author span {
-				color: steelblue;
+				color: cornflowerblue;
 			}
 
 			.single-view-page .single-view .title-book .author small {
@@ -1411,12 +1416,12 @@ HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
 
 		/* rating */
 			.single-view-page .rating {
-				border-top: 1px solid steelblue;
+				border-top: 1px solid cornflowerblue;
 			}
 
 		/* formats bar */
 			.single-view-page .formats-bar {
-				border-top: 1px solid steelblue;
+				border-top: 1px solid cornflowerblue;
 			}
 
 			.single-view-page .formats-bar .title {
@@ -1464,7 +1469,7 @@ HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
 
 	/* description */
 		.single-view-page .description {
-			border-top: 1px solid steelblue;
+			border-top: 1px solid cornflowerblue;
 		}
 
 		.single-view-page .description strong {
