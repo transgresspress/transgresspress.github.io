@@ -38,7 +38,8 @@ HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
 	}
 
 	.orange {
-                font-size: 18px;
+                font-size: 20px;
+		font-weight: 600;	
 		color: navy;
 	}
 
@@ -453,7 +454,7 @@ HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
 		}
 
 		.footer-categories-menu li {
-			border-top: 1px solid #f2ca52;
+			border-top: 1px solid green;
 			list-style-image: url('../img/footer/orange-list-arrow.png');
 			list-style-position: inside;
 		}
@@ -847,7 +848,7 @@ HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
 		}
 
 		.audio-block .donate-button a {
-			background: #f2ca52;
+			background: green;
 			padding: 0 10px 0 11px;
 			margin-left: -5px;
 		}
@@ -982,7 +983,7 @@ HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
 		margin-top: 20px;
 	}
 
-	/* big titne nes */
+	/* big title news */
 	.homepage .big-title-news {
 		background: #f2ca52;
 		border-bottom: 1px solid #d9631e;
@@ -1027,7 +1028,7 @@ HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
 		.about-us h3 span {
 			position: relative;
 			display: inline-block;
-			background: #f2ca52;
+			background: green;
 			color: #fff;
 			padding: 5px 10px 5px 30px;
 			top: -1px;
@@ -1389,7 +1390,7 @@ HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
 			}
 
 			.single-view-page .single-view .title-book .author span {
-				color: #f2ca52;
+				color: steelblue;
 			}
 
 			.single-view-page .single-view .title-book .author small {
@@ -1599,7 +1600,7 @@ HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
 	/* post */
 	.single-news .post,
 	.news-list .post {
-		color: #f2ca52;
+		color: green;
 		margin-top: -5px;
 		margin-bottom: 20px;
 	}
