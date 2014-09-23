@@ -43,12 +43,12 @@ HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
 	}
 
 	p a {
-		color: #d9631e;
+		color: blue;
 		transition:all 0.3s ease-in-out;
 	}
 
 	a {
-		color: #D9631E;
+		color: blue;
 		text-decoration: none;
 		transition:all 0.3s ease-in-out;
 	}
@@ -1119,7 +1119,7 @@ HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
 
 		/* title book */
 		.category-listing .title {
-			border-bottom: 1px solid #f2a341;
+			border-bottom: 1px solid green;
 			position: relative;
 			padding: 0 0 10px 35px;
 		}
@@ -1135,7 +1135,7 @@ HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
 		}
 
 		.category-listing h1 a span {
-			color: #f2a341;
+                        color: #260a07;
 			font-size: 18px;
 			font-weight: normal;
 		}
@@ -1199,12 +1199,12 @@ HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
 
 		/* description text */
 		.category-listing .description {
-			border-bottom: 1px solid #f2a341;
+			border-bottom: 1px solid green;
 			padding: 18px 35px;
 		}
 
 		.category-listing .description strong {
-			color: #d9631e;
+			color: blue;
 			display: block;
 			text-transform: uppercase;
 			margin: 0 0 5px 0;
