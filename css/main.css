@@ -39,22 +39,22 @@ HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
 
 	.orange {
                 font-size: 18px;
-		color: blue;
+		color: navy;
 	}
 
 	p a {
-		color: blue;
+		color: navy;
 		transition:all 0.3s ease-in-out;
 	}
 
 	a {
-		color: blue;
+		color: navy;
 		text-decoration: none;
 		transition:all 0.3s ease-in-out;
 	}
 
 	a:hover {
-		color: #31393d;
+		color: green;
 	}
 
 	input {border: none; transition:all 0.3s ease-in-out;}
@@ -63,7 +63,7 @@ HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
 	textarea.text {
 		border-radius: 3px;
 		background-color: #fcfcfc;
-		border-bottom: 2px solid #f2a341;
+		border-bottom: 2px solid steelblue;
 		color: #dfdfdf;
 		font-size: 15px;
 		font-family: 'Signika', sans-serif;
@@ -190,7 +190,7 @@ HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
 		}
 
 		nav > ul > li > a {
-			background: blue;
+			background: navy;
 			color: #ffffff;
 			display: block;
 			font-size: 18px;
@@ -237,7 +237,7 @@ HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
 		}
 
 		.drop-menu a {
-			background: blue;
+			background: navy;
 			color: #ffffff;
 			display: inline-block;
 			font-size: 18px;
@@ -1142,7 +1142,7 @@ HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
 
 		/* author */
 		.category-listing .author a {
-			color: #f2a341;
+			color: steelblue;
 			font-size: 18px;
 			text-transform: uppercase;
 		}
@@ -1154,7 +1154,7 @@ HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
 		}
 
 		.category-listing .author a:hover {
-			color: #260a07;
+			color: green;
 		}
 
 		/* bull separator */
@@ -1204,7 +1204,7 @@ HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
 		}
 
 		.category-listing .description strong {
-			color: blue;
+			color: navy;
 			display: block;
 			text-transform: uppercase;
 			margin: 0 0 5px 0;
@@ -1376,12 +1376,12 @@ HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
 
 			.single-view-page .single-view .title-book .author {
 				font-size: 18px;
-				color: #f2a341;
+				color: steelblue;
 				margin-top: 5px;
 			}
 
 			.single-view-page .single-view .title-book .author a {
-				color: #f2a341;
+				color: steelblue;
 			}
 
 			.single-view-page .single-view .title-book a:hover {
@@ -1410,12 +1410,12 @@ HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
 
 		/* rating */
 			.single-view-page .rating {
-				border-top: 1px solid #f2a341;
+				border-top: 1px solid steelblue;
 			}
 
 		/* formats bar */
 			.single-view-page .formats-bar {
-				border-top: 1px solid #f2a341;
+				border-top: 1px solid steelblue;
 			}
 
 			.single-view-page .formats-bar .title {
@@ -1463,7 +1463,7 @@ HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
 
 	/* description */
 		.single-view-page .description {
-			border-top: 1px solid #f2a341;
+			border-top: 1px solid steelblue;
 		}
 
 		.single-view-page .description strong {
