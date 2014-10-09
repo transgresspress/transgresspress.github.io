@@ -455,12 +455,11 @@ HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
 
 		.footer-categories-menu li {
 			border-top: 1px solid navy;
-			list-style-image: url('../img/footer/orange-list-arrow.png');
 			list-style-position: inside;
 		}
 
 		.footer-categories-menu li a {
-			color: #ffffff;
+			color: cornflowerblue;
 			font-size: 19px;
 			padding: 10px 0;
 			margin-left: 0;
@@ -602,7 +601,7 @@ HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
 		}
 
 		footer .footer-bottom .blue {
-			color: #39bee8;
+			color: cornflowerblue;
 		}
 
 		footer .footer-bottom .copyright,
@@ -652,7 +651,7 @@ HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
 		}
 
 		footer .footer-bottom .bottom-footer-menu li a:hover {
-			color: #39bee8;
+			color: cornflowerblue;
 		}
 	/* footer boottom */
 /* ============ END FOOTER ============== */
