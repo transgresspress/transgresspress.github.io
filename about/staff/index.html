@@ -19,8 +19,9 @@ title: Staff & Editors | Transgress Press
                                                 {% if member.is_editor %}
                                                 <li>
                                                         <span class="orange">{{ member.name }} - {{ member.position }}</span>
-                                                            <br />
-                                                            <img src="/img/staff/{{ member.image_file }}"><br />
+                                                            <br /><br />
+                                                            <img src="/img/staff/{{ member.image_file }}">
+                                                            <br /><br />
                                                             {{ member.description }}
                                                 </li>
                                                 {% endif %}
@@ -36,8 +37,9 @@ title: Staff & Editors | Transgress Press
                                                 {% if member.is_advisor %}
                                                 <li>
                                                         <span class="orange">{{ member.name }}</span>
-                                                            <br />
-                                                            <img src="/img/staff/{{ member.image_file }}"><br />
+                                                            <br /><br />
+                                                            <img src="/img/staff/{{ member.image_file }}">
+                                                            <br /><br />
                                                             {{ member.description }}
                                                 </li>
                                                 {% endif %}
