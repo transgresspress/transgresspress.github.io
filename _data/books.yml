@@ -53,17 +53,6 @@
   description: More info coming soon
   is_hardcover:
 
-- title: STEALTH WORLD&#058; Hiding in Plain Sight
-  is_published: false
-  is_new: false
-  has_image: true 
-  image_file: book_stealth_world2.png
-  num_pages:
-  author_or_editor: Edited by BT and Cinderella
-  url_stub: 
-  description: In the pages of this book you are introduced to a group of people who define and describe themselves in all sorts of ways.  What we have in common is that we were born/living with the medical condition called transsexualism/intersex.  We are sometimes private and personal about this issue in our life. We’re challenging the notion and suggesting to the larger world to allow spaces for us to be private and involved if we so choose (or not).  There are many of us, and our numbers will never be counted.  Our lives and experiences are full and varied – we thought it was time to speak for ourselves.
-  is_hardcover:
-
 - title: transfigure
   is_published: false
   is_new: false
@@ -84,4 +73,15 @@
   author_or_editor: By Brice D. Smith           
   url_stub:
   description: In this compelling biography, Brice D. Smith illuminates the richness and complexity of LGBT history by reclaiming one of its most significant – and overlooked – historical figures. Female-born Lou Sullivan identified as a gay man when little was known about transgender people and gay FTMs (female-to-males) supposedly did not exist. A gay liberation veteran, casualty of the AIDS crisis, and founder of the transgender movement, Lou Sullivan unapologetically lived his truth and dedicated his life to helping others do the same. A tale of triumph and transgression, Yours in Liberation revolutionizes our understanding of gender identity and sexual orientation by contextualizing the tremendous social, medical, and personal obstacles Lou Sullivan overcame to embody his identity. This powerful narrative demonstrates why Lou Sullivan’s life and work continue to inspire us to live with integrity, embrace our authentic selves, and devote our lives to liberating one another.
+  is_hardcover:
+
+- title: STEALTH WORLD&#058; Hiding in Plain Sight
+  is_published: false
+  is_new: false
+  has_image: true
+  image_file: book_stealth_world2.png
+  num_pages:
+  author_or_editor: Edited by BT and Cinderella
+  url_stub:
+  description: In the pages of this book you are introduced to a group of people who define and describe themselves in all sorts of ways.  What we have in common is that we were bo$
   is_hardcover:
