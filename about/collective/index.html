@@ -15,12 +15,12 @@ title: The Collective | Transgress Press
 					<h2 class="title-list">Editors & Designers</h2>
 
 					<ul class="archive-list">
-                                                {% for member in site.data.staff %}
+                                                {% for member in site.data.collective %}
                                                 {% if member.is_editor %}
                                                 <li>
                                                         <span class="orange">{{ member.name }} - {{ member.position }}</span>
                                                             <br /><br />
-                                                            <img src="/img/staff/{{ member.image_file }}">
+                                                            <img src="/img/collective/{{ member.image_file }}" width="150" height="150">
                                                             <br /><br />
                                                             {{ member.description }}
                                                 </li>
@@ -33,12 +33,12 @@ title: The Collective | Transgress Press
 					<h2 class="title-list">Advisory Board</h2>
 
 					<ul class="archive-list">
-                                                {% for member in site.data.staff %}
+                                                {% for member in site.data.collective %}
                                                 {% if member.is_advisor %}
                                                 <li>
                                                         <span class="orange">{{ member.name }}</span>
                                                             <br /><br />
-                                                            <img src="/img/staff/{{ member.image_file }}">
+                                                            <img src="/img/collective/{{ member.image_file }}" width="150" height="150">
                                                             <br /><br />
                                                             {{ member.description }}
                                                 </li>
