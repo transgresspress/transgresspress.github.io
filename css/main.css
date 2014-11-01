@@ -55,7 +55,7 @@ HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
 	}
 
 	a:hover {
-		color: green;
+		color: DarkGreen;
 	}
 
 	input {border: none; transition:all 0.3s ease-in-out;}
@@ -85,7 +85,7 @@ HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
 
 	.button {
 		border-radius: 3px;
-		background-image: linear-gradient(green, green);
+		background-image: linear-gradient(DarkGreen, DarkGreen);
 		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#df7222, endColorstr=#d3551a);
 
 		font-size: 15px;
@@ -200,13 +200,13 @@ HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
 		}
 
 		nav > ul > li > a:hover {
-			background: green;
+			background: DarkGreen;
 			color: #ffffff;
 			text-shadow: none;
 		}
 
 		nav .current {
-			background: green;
+			background: DarkGreen;
 			color: #ffffff;
 		}
 
@@ -257,7 +257,7 @@ HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
 		}
 
 		nav > ul > li:hover .drop-menu a:hover {
-			background: green;
+			background: DarkGreen;
 			padding: 16px 25px;
 		}
 	/* end menu */
@@ -468,7 +468,7 @@ HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
 		}
 
 		.footer-categories-menu li:hover a {
-			color: green;
+                        color: cornflowerblue;
 			margin-left: 7px;
 		}
 	/* end categories block */
@@ -852,7 +852,7 @@ HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
 		}
 
 		.audio-block .donate-button a {
-			background: green;
+			background: DarkGreen;
 			padding: 0 10px 0 11px;
 			margin-left: -5px;
 		}
@@ -1032,7 +1032,7 @@ HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
 		.about-us h3 span {
 			position: relative;
 			display: inline-block;
-			background: green;
+			background: DarkGreen;
 			color: #fff;
 			padding: 5px 10px 5px 30px;
 			top: -1px;
@@ -1124,7 +1124,7 @@ HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
 
 		/* title book */
 		.category-listing .title {
-			border-bottom: 1px solid green;
+			border-bottom: 1px solid DarkGreen;
 			position: relative;
 			padding: 0 0 10px 35px;
 		}
@@ -1159,7 +1159,7 @@ HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
 		}
 
 		.category-listing .author a:hover {
-			color: green;
+			color: DarkGreen;
 		}
 
 		/* bull separator */
@@ -1204,7 +1204,7 @@ HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
 
 		/* description text */
 		.category-listing .description {
-			border-bottom: 1px solid green;
+			border-bottom: 1px solid DarkGreen;
 			padding: 18px 35px;
 		}
 
@@ -1604,7 +1604,7 @@ HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
 	/* post */
 	.single-news .post,
 	.news-list .post {
-		color: green;
+		color: DarkGreen;
 		margin-top: -5px;
 		margin-bottom: 20px;
 	}
@@ -1728,7 +1728,7 @@ HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
 	}
 
 	.archive-list a:hover {
-		color: green;
+		color: DarkGreen;
 	}
 /* ========== End Archives page ========= */
 
