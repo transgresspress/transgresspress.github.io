@@ -1,3 +1,18 @@
+- id: giving-it-raw
+  title: GIVING IT RAW
+  subtitle: Nearly 30 Years with AIDS
+  has_subtitle: true
+  is_published: true
+  is_new: true
+  has_image: true
+  image_file: book_giving_it_raw.jpg
+  num_pages:
+  author_or_editor: By Francisco Iba&ntilde;ez-Carrasco
+  url_stub: giving-it-raw
+  description: Francisco Ibañez Carrasco is an AIDS activist, social scientist, educator, and writer. His memoir <em>Giving It Raw&#058; Nearly 30 Years with AIDS</em> is a c$
+  is_hardcover: false
+  price: 16
+
 - id: letters-for-my-sisters
   title: LETTERS FOR MY SISTERS
   subtitle: Transitional Wisdom in Retrospect
@@ -57,21 +72,6 @@
   description: In today's fast paced world, the internet can provide quick answers to personal questions. But when an individual raised by society to live, breathe and look at the world female eyes transitions to male, some of the most enlightening, helpful and profound advice can only come in retrospect. This paperback edition features a powerful new preface by Max Wolf Valerio, author of <em>The Testosterone Files</em>, and other essays from respected transmen mentors who share their wisdom of journeying into manhood.
   is_hardcover: false
   price: 17
-
-- id: giving-it-raw
-  title: GIVING IT RAW
-  subtitle: Nearly 30 Years with AIDS
-  has_subtitle: true
-  is_published: false
-  is_new: false
-  has_image: true 
-  image_file: book_giving_it_raw.jpg
-  num_pages:
-  author_or_editor: By Francisco Iba&ntilde;ez-Carrasco
-  url_stub:
-  description: More info coming soon
-  is_hardcover:
-  price: 
 
 - id: transfigure
   title: transfigure
