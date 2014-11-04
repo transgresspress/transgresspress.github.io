@@ -40,7 +40,7 @@ HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
 	.orange {
                 font-size: 20px;
 		font-weight: 600;	
-		color: navy;
+		color: #34416B;
 	}
 
 	p a {
@@ -49,13 +49,13 @@ HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
 	}
 
 	a {
-		color: navy;
+		color: #34416B;
 		text-decoration: none;
 		transition:all 0.3s ease-in-out;
 	}
 
 	a:hover {
-		color: DarkGreen;
+		color: #9BD3BA;
 	}
 
 	input {border: none; transition:all 0.3s ease-in-out;}
@@ -85,12 +85,11 @@ HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
 
 	.button {
 		border-radius: 3px;
-		background-image: linear-gradient(DarkGreen, DarkGreen);
-		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#df7222, endColorstr=#d3551a);
+                background-image: linear-gradient(#9BD3BA, #9BD3BA);
+                filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#df7222, endColorstr=#d3551a);
 
 		font-size: 15px;
 		color: #ffffff;
-		text-shadow: -1px -1px 0 #a94d17;
 		text-transform: uppercase;
 
 		display: inline-block;
@@ -103,7 +102,7 @@ HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
 	}
 
 	.button.img.download span {
-		padding: 12px 2px 12px 44px;
+		padding: 12px 2px 12px 20px;
 	}
 
 	.button.img small {
@@ -114,9 +113,9 @@ HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
 	}
 
 	.button:hover {
-		box-shadow: inset 0 0 7px rgba(0,0,0,.2);
-		background-image: linear-gradient(#d3551a, #df7222);
-		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#d3551a, endColorstr=#df7222);
+                box-shadow: inset 0 0 7px rgba(0,0,0,.2);
+                background-image: linear-gradient(#34416B, #34416B);
+                filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#d3551a, endColorstr=#df7222);
 		cursor: pointer;
 	}
 
@@ -191,7 +190,7 @@ HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
 		}
 
 		nav > ul > li > a {
-			background: navy;
+			background: #34416B;
 			color: #ffffff;
 			display: block;
 			font-size: 18px;
@@ -200,13 +199,13 @@ HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
 		}
 
 		nav > ul > li > a:hover {
-			background: DarkGreen;
+			background: #9BD3BA;
 			color: #ffffff;
 			text-shadow: none;
 		}
 
 		nav .current {
-			background: DarkGreen;
+			background: #9BD3BA;
 			color: #ffffff;
 		}
 
@@ -238,7 +237,7 @@ HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
 		}
 
 		.drop-menu a {
-			background: navy;
+			background: #34416B;
 			color: #ffffff;
 			display: inline-block;
 			font-size: 18px;
@@ -257,7 +256,7 @@ HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
 		}
 
 		nav > ul > li:hover .drop-menu a:hover {
-			background: DarkGreen;
+			background: #9BD3BA;
 			padding: 16px 25px;
 		}
 	/* end menu */
@@ -454,7 +453,7 @@ HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
 		}
 
 		.footer-categories-menu li {
-			border-top: 1px solid navy;
+			border-top: 1px solid #34416B;
 			list-style-position: inside;
 		}
 
@@ -852,7 +851,7 @@ HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
 		}
 
 		.audio-block .donate-button a {
-			background: DarkGreen;
+			background: #9BD3BA;
 			padding: 0 10px 0 11px;
 			margin-left: -5px;
 		}
@@ -1032,7 +1031,7 @@ HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
 		.about-us h3 span {
 			position: relative;
 			display: inline-block;
-			background: DarkGreen;
+			background: #9BD3BA;
 			color: #fff;
 			padding: 5px 10px 5px 30px;
 			top: -1px;
@@ -1124,7 +1123,7 @@ HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
 
 		/* title book */
 		.category-listing .title {
-			border-bottom: 1px solid DarkGreen;
+			border-bottom: 1px solid #9BD3BA;
 			position: relative;
 			padding: 0 0 10px 35px;
 		}
@@ -1159,7 +1158,7 @@ HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
 		}
 
 		.category-listing .author a:hover {
-			color: DarkGreen;
+			color: #9BD3BA;
 		}
 
 		/* bull separator */
@@ -1204,12 +1203,12 @@ HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
 
 		/* description text */
 		.category-listing .description {
-			border-bottom: 1px solid DarkGreen;
+			border-bottom: 1px solid #9BD3BA;
 			padding: 18px 35px;
 		}
 
 		.category-listing .description strong {
-			color: navy;
+			color: #34416B;
 			display: block;
 			text-transform: uppercase;
 			margin: 0 0 5px 0;
@@ -1295,7 +1294,7 @@ HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
 			}
 
 			.formats-bar .button span {
-				background: url('../img/icon-listen-button.png') no-repeat 12px 10px;
+				background: url('') no-repeat 12px 10px;
 			}
 
 			.formats-bar .text {
@@ -1367,14 +1366,14 @@ HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
 		/* title and subtitle */
 			.single-view-page .single-view .title-book .title {
 				font-size: 34px;
-				color: #d9631e;
+				color: #34416B;
 				text-transform: uppercase;
 				width: 680px;
 			}
 
 			.single-view-page .single-view .title-book .subtitle {
 				font-size: 30px;
-				color: #d9631e;
+				color: #34416B;
 				width: 680px;
 				margin-top: -12px;
 			}
@@ -1472,7 +1471,7 @@ HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
 		}
 
 		.single-view-page .description strong {
-			color: #d9631e;
+			color: #34416B;
 			font-size: 20px;
 			text-transform: uppercase;
 			margin-bottom: 10px;
@@ -1604,7 +1603,7 @@ HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
 	/* post */
 	.single-news .post,
 	.news-list .post {
-		color: DarkGreen;
+		color: #9BD3BA;
 		margin-top: -5px;
 		margin-bottom: 20px;
 	}
@@ -1728,7 +1727,7 @@ HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
 	}
 
 	.archive-list a:hover {
-		color: DarkGreen;
+		color: #9BD3BA;
 	}
 /* ========== End Archives page ========= */
 
