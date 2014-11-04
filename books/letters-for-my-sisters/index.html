@@ -1,31 +1,41 @@
 ---
 layout: books
 title: Letters for My Sisters | Transgress Press
+book-id: letters-for-my-sisters
 ---
-		<div class="main single-view-page" role="main">
+
+{% for book in site.data.books %}
+
+  {% if book.id == page.book-id %}
+
+    <div class="main single-view-page" role="main">
 			<div class="page-title">
 				<h2>books</h2>
-				<small>letters for my sisters</small>
+				<small>{{ book.title }}</small>
 			</div><!-- page title -->
 
 			<div class="container">
 					<section class="single-view">
 						<aside>
 							<div class="image">
-								<img class="book" src="/img/books/book_letters_for_my_sisters.png" width=230 alt="book cover" />
+								<img class="book" src="/img/books/{{ book.image_file }}" width=230 alt="book cover" />
 							</div><!-- image -->
 						</aside><!-- sidebar left -->
 
 						<article>
 							<div class="title-book">
-								<h1 class="title">Letters for My Sisters</h1><!-- title -->
-								<h2 class="subtitle">Transitional Wisdom in Retrospect</h2><!-- subtitle -->
+								<h1 class="title">{{ book.title }}</h1><!-- title -->
+								<h2 class="subtitle">{{ book.subtitle }}</h2><!-- subtitle -->
 
 								<div class="author">
-									Andrea James (Author), Deanne Thornton (Author) <small>$15.00 USD</small>
+									{{ book.author_or_editor }}<small> <span class="bull">&bull;</span> ${{ book.price }}</small>
 								</div><!-- author -->
 								<br />
 								
+								<div class="count-book">
+									<span>${{ book.price }}</span>
+									<small>USD</small>
+								</div>
 							</div><!-- title book -->
 
 							<div class="purchase">
@@ -37,7 +47,7 @@ title: Letters for My Sisters | Transgress Press
 							<div class="description">
 								<strong>description:</strong>
 								<p>
-									LETTERS FOR MY SISTERS is an anthology of collected wisdom by and for transgender women. This groundbreaking collection of letters tells raw, heartfelt stories of childhood, transitioning, and becoming women in a world where acceptance is sometimes elusive and costly. Brave, boldly vulnerable and revealing, this collection adds to a growing body of literature where trans people tell their own stories as they lived them. Each writer addresses one simple question: If you could write just one letter to someone beginning transition, or to your younger pre-transition self, what would you say? Would you reassure or warn them, or lay your life out in vivid detail for them to draw their own conclusions? Would you have a secret to tell, a hard-won truth or an unexpected triumph to share? LETTERS FOR MY SISTERS is an anthology of collected wisdom by and for transgender women. This groundbreaking collection of letters tells raw, heartfelt stories of childhood, transitioning, and becoming women in a world where acceptance is sometimes elusive and costly.
+									{{ book.description }}
 								</p>
 							</div><!-- description -->
 						</article>
@@ -45,4 +55,8 @@ title: Letters for My Sisters | Transgress Press
 						<div class="clear">&nbsp;</div><!-- clear -->
 					</section><!-- single view -->
 			</div><!-- container -->
-		</div><!-- main -->
+		</div><!-- main -->  
+
+  {% endif %}
+
+{% endfor %}
