@@ -102,7 +102,7 @@ HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
 	}
 
 	.button.img.download span {
-		padding: 12px 2px 12px 20px;
+		padding: 12px 20px 12px 20px;
 	}
 
 	.button.img small {
@@ -1433,6 +1433,11 @@ HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
 
 			.single-view-page .formats-bar .kindle-bar {
 				margin-top: 20px;
+			}
+
+			.single-view-page .purchase {
+				padding-left: 30px;
+				padding-bottom: 30px;
 			}
 
 		/* number of books */
