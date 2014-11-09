@@ -9,9 +9,11 @@
   num_pages:
   author_or_editor: By Francisco Iba&ntilde;ez-Carrasco
   url_stub: giving-it-raw
-  description: Francisco Ibañez Carrasco is an AIDS activist, social scientist, educator, and writer. His memoir Giving It Raw: Nearly 30 Years with AIDS is a coming book through Transgress Press. Francisco lives in Toronto, Ontario with his fat cat Orion.
+  description: Francisco Ibañez Carrasco is an AIDS activist, social scientist, educator, and writer. His memoir Giving It Raw&#058; Nearly 30 Years with AIDS is a coming book through Transgress Press. Francisco lives in Toronto, Ontario with his fat cat Orion.
   is_hardcover: false
   price: 16
+  paypal_id: WMPVZ3AXLSNYW
+  donation_recipients: 
 
 - id: letters-for-my-sisters
   title: LETTERS FOR MY SISTERS
@@ -27,6 +29,8 @@
   description: LETTERS FOR MY SISTERS is an anthology of collected wisdom by and for transgender women. This groundbreaking collection of letters tells raw, heartfelt stories of childhood, transitioning, and becoming women in a world where acceptance is sometimes elusive and costly. Brave, boldly vulnerable and revealing, this collection adds to a growing body of literature where trans people tell their own stories as they lived them. Each writer addresses one simple question&#058; If you could write just one letter to someone beginning transition, or to your younger pre-transition self, what would you say? Would you reassure or warn them, or lay your life out in vivid detail for them to draw their own conclusions? Would you have a secret to tell, a hard-won truth or an unexpected triumph to share? LETTERS FOR MY SISTERS is an anthology of collected wisdom by and for transgender women. This groundbreaking collection of letters tells raw, heartfelt stories of childhood, transitioning, and becoming women in a world where acceptance is sometimes elusive and costly.
   is_hardcover: false
   price: 15
+  paypal_id: EY3825LR9D8E6
+  donation_recipients: 
 
 - id: manning-up
   title: MANNING UP
@@ -42,6 +46,8 @@
   description: Twenty-seven men who transitioned from female to male discuss their roles as male community members&#058; fathers, sons, brothers, husbands, boyfriends, friends, and mentors. Not since Max Wolf Valerio’s <em>The Testosterone Files</em> and Jamison Green’s <em>Becoming a Visible Man</em> has nonfiction seen such thorough and sensitive explorations of manhood, masculinity, and male embodiment—and never in a collection with such a diversity of voices. Contributors offer an incredible range of cultural, class, ethnic, spiritual, and generational backgrounds. Their work addresses topics including birthing and raising children, gay male sexuality, facing racism, and finding solace in deeply held religious beliefs. Contributors include established writers such as Valerio, Aaron Devor (author of FTM&#058; Female-to-Male Transsexuals in Society) and Ryan Sallans (author of Second Son), as well as exciting new authors.
   is_hardcover: false
   price: 25
+  paypal_id: PLGMVQTGSZZAA 
+  donation_recipients: 
 
 - id: hung-jury
   title: HUNG JURY
@@ -57,6 +63,8 @@
   description: This pioneering anthology released by Transgress Press is the first of its kind, presenting raw, unadulterated testimonies of transsexual men’s experiences of sex reassignment surgery. The collection offers a comprehensive understanding of why transsexual men choose genital surgery and its transformative impact on their lives.  Hung Jury has widespread appeal, catching the attention and interests of a wide and diverse readership looking to understand transsexuality, sex, and gender identity. Because the book breaks new ground in LGBT, gender, and feminist studies moreover, it is also an excellent read for courses taught in these academic fields.
   is_hardcover: false
   price: 17
+  paypal_id: SJY3ZRZ24VTJS
+  donation_recipients: 
 
 - id: letters-for-my-brothers
   title: LETTERS FOR MY BROTHERS
@@ -71,7 +79,9 @@
   url_stub: letters-for-my-brothers
   description: In today's fast paced world, the internet can provide quick answers to personal questions. But when an individual raised by society to live, breathe and look at the world female eyes transitions to male, some of the most enlightening, helpful and profound advice can only come in retrospect. This paperback edition features a powerful new preface by Max Wolf Valerio, author of <em>The Testosterone Files</em>, and other essays from respected transmen mentors who share their wisdom of journeying into manhood.
   is_hardcover: false
-  price: 17
+  price: 15
+  paypal_id: LS3W4K3J8YZUY
+  donation_recipients: 
 
 - id: transfigure
   title: transfigure
@@ -87,6 +97,8 @@
   description: Transfigure is a project of corporal self-expression, presented as an experimental, visual feast. The imagery portrays the complexity of gender and bodies and the ways in which these combinations may be surprising.
   is_hardcover:
   price: 
+  paypal_id: 
+  donation_recipients: 
 
 - id: lou-sullivan
   title: YOURS IN LIBERATION
@@ -102,6 +114,8 @@
   description: In this compelling biography, Brice D. Smith illuminates the richness and complexity of LGBT history by reclaiming one of its most significant – and overlooked – historical figures. Female-born Lou Sullivan identified as a gay man when little was known about transgender people and gay FTMs (female-to-males) supposedly did not exist. A gay liberation veteran, casualty of the AIDS crisis, and founder of the transgender movement, Lou Sullivan unapologetically lived his truth and dedicated his life to helping others do the same. A tale of triumph and transgression, Yours in Liberation revolutionizes our understanding of gender identity and sexual orientation by contextualizing the tremendous social, medical, and personal obstacles Lou Sullivan overcame to embody his identity. This powerful narrative demonstrates why Lou Sullivan’s life and work continue to inspire us to live with integrity, embrace our authentic selves, and devote our lives to liberating one another.
   is_hardcover:
   price: 
+  paypal_id: 
+  donation_recipients: 
 
 - id: stealth-world
   title: STEALTH WORLD
@@ -116,7 +130,9 @@
   url_stub:
   description: In the pages of this book you are introduced to a group of people who define and describe themselves in all sorts of ways.  What we have in common is that we were bo$
   is_hardcover:
-  price:
+  price: 
+  paypal_id: 
+  donation_recipients: 
 
 - id: love-always
   title: LOVE, ALWAYS
@@ -131,4 +147,6 @@
   url_stub:
   description: 
   is_hardcover:
-  price:
+  price: 
+  paypal_id: 
+  donation_recipients: 
