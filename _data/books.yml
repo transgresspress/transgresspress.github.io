@@ -83,6 +83,23 @@
   paypal_id: LS3W4K3J8YZUY
   donation_recipients: 
 
+- id: love-always
+  title: LOVE, ALWAYS
+  subtitle: Stories of Strength & Hope by Partners of Trans People
+  has_subtitle: true
+  is_published: false
+  is_new: false
+  has_image: true
+  image_file: book_love_always2.png
+  num_pages: 
+  author_or_editor: Edited by Becky Garrison & Jordon Johnson
+  url_stub:
+  description:
+  is_hardcover:
+  price:
+  paypal_id:
+  donation_recipients:
+
 - id: transfigure
   title: transfigure
   subtitle:
@@ -129,23 +146,6 @@
   author_or_editor: Edited by BT and Cinderella
   url_stub:
   description: In the pages of this book you are introduced to a group of people who define and describe themselves in all sorts of ways.  What we have in common is that we were bo$
-  is_hardcover:
-  price: 
-  paypal_id: 
-  donation_recipients: 
-
-- id: love-always
-  title: LOVE, ALWAYS
-  subtitle: Stories of Strength & Hope by Partners of Trans People
-  has_subtitle: true
-  is_published: false
-  is_new: false
-  has_image: true
-  image_file: book_love_always.png
-  num_pages: 
-  author_or_editor: Edited by Becky Garrison & Jordan Johnson
-  url_stub:
-  description: 
   is_hardcover:
   price: 
   paypal_id: 
