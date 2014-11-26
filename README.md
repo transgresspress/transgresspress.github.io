@@ -1,4 +1,4 @@
 transgresspress
 ===
 
-&copy; 2014 Harlan Kellaway, All rights reserved.
+&copy; 2014 Transgress Press, All rights reserved.
