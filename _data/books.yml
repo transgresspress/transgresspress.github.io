@@ -1,7 +1,7 @@
 - id: giving-it-raw
   title: GIVING IT RAW
   subtitle: Nearly 30 Years with AIDS
-  has_subtitle: true
+  show_subtitle: true
   is_published: true
   is_new: true
   has_image: true
@@ -18,7 +18,7 @@
 - id: letters-for-my-sisters
   title: LETTERS FOR MY SISTERS
   subtitle: Transitional Wisdom in Retrospect
-  has_subtitle: true
+  show_subtitle: true
   is_published: true
   is_new: true
   has_image: true 
@@ -35,7 +35,7 @@
 - id: manning-up
   title: MANNING UP
   subtitle: Transsexual Men on Finding Brotherhood, Family & Themselves
-  has_subtitle: true
+  show_subtitle: true
   is_published: true
   is_new: true
   has_image: true 
@@ -52,7 +52,7 @@
 - id: hung-jury
   title: HUNG JURY
   subtitle: Testimonies of Genital Surgery by Transsexual Men
-  has_subtitle: true
+  show_subtitle: true
   is_published: true
   is_new: false
   has_image: true 
@@ -69,7 +69,7 @@
 - id: letters-for-my-brothers
   title: LETTERS FOR MY BROTHERS
   subtitle: Transitional Wisdom in Retrospect
-  has_subtitle: true
+  show_subtitle: true
   is_published: true
   is_new: false
   has_image: true 
@@ -85,8 +85,8 @@
 
 - id: love-always
   title: LOVE, ALWAYS
-  subtitle: Stories of Strength & Hope by Partners of Trans People
-  has_subtitle: true
+  subtitle: Partners of Trans People on Intimacy, Challenge, & Resilience
+  show_subtitle: true
   is_published: false
   is_new: false
   has_image: true
@@ -94,7 +94,7 @@
   num_pages: 
   author_or_editor: Edited by Becky Garrison & Jordon Johnson
   url_stub:
-  description:
+  description: Over 30 partners of trans men, trans women, and nonbinary people talk about the ups, downs, and in betweens of their lives together.
   is_hardcover:
   price:
   paypal_id:
@@ -103,7 +103,7 @@
 - id: transfigure
   title: transfigure
   subtitle:
-  has_subtitle: false
+  show_subtitle: false
   is_published: false
   is_new: false
   has_image: true 
@@ -120,7 +120,7 @@
 - id: lou-sullivan
   title: YOURS IN LIBERATION
   subtitle: The Queer Life of Trans Pioneer Lou Sullivan
-  has_subtitle: true
+  show_subtitle: true
   is_published: false
   is_new: false
   has_image: true
@@ -137,7 +137,7 @@
 - id: stealth-world
   title: STEALTH WORLD
   subtitle: Hiding in Plain Sight
-  has_subtitle: true
+  show_subtitle: true
   is_published: false
   is_new: false
   has_image: true
