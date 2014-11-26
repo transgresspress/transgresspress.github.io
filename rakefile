@@ -28,6 +28,7 @@ desc "Updates GitHub."
 task :ship do
   message = ARGV.last
   task message.to_sym do ; end
+  system "jekyll build"
   system "cp _site/sitemap.xml ."
   system "git add -A"
   system "git commit -am '#{message}'"
