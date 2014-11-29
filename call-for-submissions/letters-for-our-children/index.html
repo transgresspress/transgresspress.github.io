@@ -1,0 +1,44 @@
+---
+layout: books
+title: Letters for Our Children | Transgress Press
+cfp-id: letters-for-our-children
+---
+
+{% for cfp in site.data.cfps %}
+
+  {% if cfp.id == page.cfp-id %}
+
+    <div class="main single-view-page" role="main">
+			<div class="page-title">
+				<h2>call for submissions</h2>
+				<small>{{ cfp.title }}</small>
+			</div><!-- page title -->
+
+			<div class="container">
+					<section class="single-view">
+						<div class="cfp">
+							<div class="title-book">
+								<h1 class="subtitle">CALL FOR SUBMISSIONS: <em>{{ cfp.title }}</em></h1><!-- title -->
+
+								<div class="author">
+									{{ cfp.author_or_editor }}<small> {% if cfp.due_date == nil %}{% else %}<span class="bull">&bull;</span> Due {{ cfp.due_date }}</small>{% endif %}
+								</div><!-- author -->
+							</div><!-- title book -->
+
+							<div class="description">
+
+                                                                        <br /><br />
+
+									{% if cfp.description == nil %} {{ cfp.teaser }} {% else %} {{ cfp.description }} {% endif %}
+							
+                                                                </div><!-- description -->
+						</div>
+
+						<div class="clear">&nbsp;</div><!-- clear -->
+					</section><!-- single view -->
+			</div><!-- container -->
+		</div><!-- main -->  
+
+  {% endif %}
+
+{% endfor %}

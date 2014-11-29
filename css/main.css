@@ -1363,6 +1363,11 @@ HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
 			width: 840px;
 		}
 
+                .single-view-page .single-view .cfp {
+                        float: left;
+                        width: 1140px;
+                }
+
 		/* title and subtitle */
 			.single-view-page .single-view .title-book .title {
 				font-size: 34px;
@@ -1476,12 +1481,9 @@ HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
 		}
 
 		.single-view-page .description strong {
-			color: #34416B;
-			font-size: 20px;
-			text-transform: uppercase;
-			margin-bottom: 10px;
-			display: inline-block;
+			color: black;
 		}
+
 /* =========== End View page ============ */
 
 /* ============== Search page =========== */
