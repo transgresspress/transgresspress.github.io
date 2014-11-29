@@ -17,6 +17,7 @@ title: The Collective | Transgress Press
 					<ul class="archive-list">
                                                 {% for member in site.data.collective %}
                                                 {% if member.is_editor %}
+                                                <a name="{{ member.id  }}"></a>
                                                 <li>
                                                         <span class="orange">{{ member.name }} - {{ member.position }}</span>
                                                             <br /><br />

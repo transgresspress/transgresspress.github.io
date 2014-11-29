@@ -1,18 +1,21 @@
-- name: Loree Cook-Daniels
+- id: loree-cook-daniels
+  name: Loree Cook-Daniels
   is_editor: false
   is_advisor: true
   position: 
   description: <strong>Loree Cook-Daniels</strong> founded the Transgender Aging Network, a program of FORGE of which she serves as Policy and Program Director. Loree has been working for LGBT rights and respect since 1975 and doing transgender education and advocacy since 1995. She has authored numerous publications and helped build self-sustaining institutions in LGBT communities. Loree believes that transgender communities are much stronger when SOFFAs are viewed as full members of the community and given the same support as people transitioning. She has received federal funding that allows her to work full time providing direct services to transgender victims and educating professionals on respectful treatment of transgender people.
   image_file: staff_loree.jpg
 
-- name: Trystan Theosophus Cotten
+- id: trystan-cotten
+  name: Trystan Theosophus Cotten
   is_editor: true
   is_advisor: false
   position: Managing Editor
   description: <strong>Trystan Theosophus Cotten</strong>‘s current positions are Associate Professor of Gender and African American Studies at California State University, Stanislaus and Managing Editor of Transgress Press. He travels extensively around the world speaking on trans identities and issues. His current research deals with gender, race, and migration in the African Diaspora. He has edited five books and written numerous articles on these issues. His most recent publications are&#058; <em>Hung Jury&#058; Testimonies of Genital Surgery by Transsexual Men</em> (Transgress Press 2012) and <em>Transgender Migrations&#058; The Bodies, Borders, and Politics of Transition</em> (Routledge 2011).
   image_file: staff_trystan.jpeg
 
-- name: Lann Hornscheidt
+- id: lann-hornscheidt
+  name: Lann Hornscheidt
   is_editor: true
   is_advisor: false
   position: Managing Editor (Europe/UK) 
@@ -27,49 +30,56 @@
   description: <strong>Mitch Kellaway</strong> is a queer, trans, biracial Boston-based activist, editor, and writer. He holds a degree in gender studies from Harvard University and devotes his energy to feminist, queer, and transgender causes. His writing can be found online in The Advocate, the Lambda Literary Review, and Original Plumbing. Most recently, he is the co-editor of <em>Manning Up&#058; Transsexual Men on Finding Brotherhood, Family, and Themselves</em> (Transgress, 2014) and <em>Trans_&#058; An Anthology of Trans People and the Internet</em> (forthcoming 2016). <a href="http&#058;//mitchkellaway.com" target="_blank">mitchkellaway.com</a>
   image_file: staff_mitch.jpg
 
-- name: Jin Haritaworn    
+- id: jin-haritaworn
+  name: Jin Haritaworn    
   is_editor: false
   is_advisor: true
   position:
   description: <strong>Jin Haritaworn</strong> is Assistant Professor of Gender, Race and Environment at York University in Toronto. Professor Haritaworn is known for presenting piercing, cogent critiques of queer necropolitics and homonationalisms and recently co-edited a collection of essays on the topic, Queer Necropolitics, forthcoming from Routledge in 2013. Haritaworn’s newest book, <em>The Biopolitics of Mixing&#058; Thai Multiracialities and Haunted Ascendancies</em> (Ashgate) engages a plethora of issues surrounding race/ethnicity, nationality and diaspora, sexuality and gender in late 20th century global circuits of trade, travel, and transport. Haritaworn has also edited and co-edited numerous periodicals on intersectionalities of race, gender and sexuality, including European Journal of Women’s Studies (2012, 19(1/2)), Sexualities (2006, 9(5)), International Feminist Journal of Politics (2013, 15(4)).
   image_file: staff_jin.jpeg
 
-- name: Dean Spade
+- id: dean-spade
+  name: Dean Spade
   is_editor: false
   is_advisor: true
   position: 
   description: <strong>Dean Spade</strong> is an associate professor at the Seattle University School of Law and is currently a fellow in the Engaging Tradition Project at Columbia Law School. In 2002 he founded the Sylvia Rivera Law Project, a non-profit collective that provides free legal help to low-income people and people of color who are trans, intersex and/or gender non-conforming and works to build trans resistance rooted in racial and economic justice. He is the author of <em>Normal Life&#058; Administrative Violence, Critical Trans Politics and the Limits of Law</em>.
   image_file: staff_dean.jpeg
 
-- name: Susan Stryker
+- id: susan-stryker
+  name: Susan Stryker
   is_editor: false
   is_advisor: true
   position:
   description: <strong>Susan Stryker</strong> is an internationally renowned scholar of Gender and Women’s Studies, filmmaker, and tireless activist of social justice for trans people. Currently, she is Director of the Institute for LGBT Studies at the University of Arizona and Associate Professor of Gender and Women’s Studies. Professor Stryker is the author of many articles and several books on transgender and queer topics, most recently <em>Transgender History</em> (Seal Press 2008). She won a Lambda Literary Award for her anthology <em>The Transgender Studies Reader</em> (Routledge 2006) and an Emmy Award for her documentary film <em>Screaming Queens&#058; The Riot at Compton’s Cafeteria</em> (Frameline/ITVS 2005). Professor Stryker’s research interests include transgender and queer studies, film and media, built environments, somatechnics, and critical theory. Currently, she teaches <a href="http&#058;//gws.arizona.edu/user/161" target="_blank">classes</a> on LGBT history and embodiment and technology.
   image_file: staff_susan.jpg
 
-- name: Max Wolf Valerio
+- id: max-wolf-valerio
+  name: Max Wolf Valerio
   is_editor: true
   is_advisor: false 
   position: Assistant Editor 
   description: <strong>Max Wolf Valerio</strong> is an accomplished poet and writer and well known for his riveting memoir, <em>The Testosterone Files&#058; My Hormonal And Social Transformation from Female to Male</em> (Seal), which chronicles his early transition set inside the cultures of feminism, punk rock and outsider art. His writings have also appeared in This Bridge We Call Home and This Bridge Called My Back. He has also appeared in numerous documentaries about transsexual transitions and continues to write and speak nationwide. He recently collaborated with photographer Dana Smith on the multi-media installation, Mission Mile Trilogy +1. Currently, he is completing a second novel about transsexual men’s lives against the backdrop of dystopian identity politics in the gentrifying cityscape of San Francisco. Mr. Valerio most recent work can be found at <a href="http&#058;//hypotenusewolf.wordpress.com" target="_blank">hypotenusewolf.wordpress.com</a>.
   image_file: staff_max.jpg
 
-- name: Maya Scott-Chung, MPH
+- id: maya-scott-chung
+  name: Maya Scott-Chung, MPH
   is_editor: true
   is_advisor: false
   position: Acquisitions Editor
   description: <strong>Maya Scott-Chung, MPH</strong> is an oral historian, community educator and grassroots organizer. An activist since high school, she has trained as a facilitator with Equity Institute and led workshops on cross-cultural alliance building and unlearning racism, heterosexism and other oppression issues for almost thirty years. Ms. Scott-Chung received a B.A. in Multicultural Curriculum Development through Theater with minor concentrations in African American Studies and Women’s Health from the University of Massachusetts, Amherst in 1991. She went on to earn a Master’s degree in Public Health at San Francisco State University in 2010. Her thesis, <em>The LOVING QUILT&#058; A People’s Living History and Herstory of Marriage Equality and Family Justice Movements</em>, has toured throughout the US and India.  Ms. Scott-Chung started an LGBTQI oral history archives with StoryCorps www.storycorps.org in 2010 and feels honored to serve on the national Advisory Board of StoryCorps OutLoud. She has also contributed work to Dr. Sonia Nieto’s groundbreaking book, <em>Affirming Diversity&#058; The Sociopolitical Context of Multicultural Education</em>.  Ms. Scott-Chung lives in Oakland, California with her husband, Chino, their daughter, Luna, her mother-in-law, Teresa and four lively cats. She is currently gathering stories and essays for an anthology focusing on transgender fertility, family building and reproductive rights with Transgress Press.
   image_file: staff_maya.jpg
 
-- name: Trace Peterson
+- id: trace-peterson
+  name: Trace Peterson
   is_editor: true
   is_advisor: false
   position: Graphic Designer
   description: <strong>Trace Peterson</strong> is a trans lady graphic designer and runs PTRSN Design in Brooklyn. She specializes in print design and identity/logos/signage. Clients have included Unnameable Books (store signage and logo/identity), Ahsahta Press (print design), Nightboat Books (print design), and numerous other publishers. Peterson is also a poet and co-edited the recent anthology <em>Troubling the Line&#058; Trans and Genderqueer Poetry and Poetics</em>."
   image_file: staff_trace.png
 
-- name: Ethan Daniel
+- id: ethan-daniel
+  name: Ethan Daniel
   is_editor: true
   is_advisor: false
   position: Webmaster
