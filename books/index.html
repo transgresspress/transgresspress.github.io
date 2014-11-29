@@ -12,6 +12,7 @@ title: Books | Transgress Press
 
                                     {% for book in site.data.books %}
                                         {% if book.is_published %}
+                                                       <a name="{{ book.id }}"></a>
                                                        <li>
 						            <article>
                                                                 {% if book.has_image %}

@@ -19,7 +19,8 @@
   description: <strong>Lann Hornscheidt</strong> is Professor of Gender Studies and Linguistics at the Center for Transdisciplinary Studies at Humbolt University in Berlin, Germany. Lann has held several guest professorships in Sweden (Universities of Uppsala, Lind, Orebro, Sodertorns Stockholm), Austria (Universities of Innsbruck and Karl-Franzens Graz), and Finland (Abo Academy). Lann has also authored six book, including the most recently published Feminist Words and Places (2012) and How to Write Feminism&#058; Together with the Ag Sprache (2011) and Hate Speech (2011) and Racism in Plain German (2010). Lann’s current research focus on&#058; linguistics and racial discrimination, intersectionality, postcolonial theory, trans activism, migration, discoursive and dispositive analysis. Lann is also co-founder of X_Art Splitta, an activist organization using artistic practices to bring about social justice and social transformation.
   image_file: staff_lann.jpg
 
-- name: Mitch Kellaway
+- id: mitch-kellaway
+  name: Mitch Kellaway
   is_editor: true
   is_advisor: false
   position: Assistant Editor
