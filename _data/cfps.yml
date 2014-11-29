@@ -5,7 +5,6 @@
   contact: cocktalkbook@gmail.com
   contact_url: mailto:cocktalkbook@gmail.com
   author_or_editor: Edited by Trystan T. Cotten & Zander Keig
-  url_stub: hung-jury-second-volume
   teaser: Following the success of <em>Hung Jury&#058; Testimonies of Genital Surgery</em>, we have received many requests to edit a second collection of testimonies exploring this important topic. In their surgical journeys and many years after, transsexual men continue to experience growth and changes in their gender and sexual embodiment. Our experiences offer wisdom and insight into male gender identity and sexuality that readers want to know more about. For this collection we are seeking testimonies that go beyond the nuts and bolts of surgical experience (although they may include some of these details) and explore a wider range of topics and issues.
 
 - id: letters-from-our-partners
@@ -15,5 +14,13 @@
   contact: johnson.jordon@gmail.com
   contact_url: mailto:johnson.jordon@gmail.com
   author_or_editor: Jordon Johnson
-  url_stub: letters-from-our-partners
   teaser: <em>Letters From Our Partners</em>, inspired by the 2011 Lambda Literary Finalist <a href="/books/letters-for-my-brothers">Letters For My Brothers&#058; Transitional Wisdom in Retrospect</a>, is an anthology of letters written by partners/spouses of trans* people to their trans* partner(s).  We are looking for personal stories from partners who are or have been in a relationship with trans men, trans women, and/or non-binary trans* people.
+
+- id: letters-for-our-children
+  title: Letters for Our Children
+  is_open: true
+  publisher: Transgress Press
+  contact:
+  contact_url:
+  author_or_editor: Jordon Johnson & Nathan Ezekiel
+  teaser: Information Coming Soon
