@@ -1,4 +1,5 @@
-- title: HUNG JURY&#058; Testimonies of Genital Surgery by Transsexual Men (Second Volume)
+- id: hung-jury-second-volume
+  title: HUNG JURY&#058; Testimonies of Genital Surgery by Transsexual Men (Second Volume)
   is_open: true
   publisher: Transgress Press
   contact: cocktalkbook@gmail.com
@@ -7,7 +8,8 @@
   url_stub: hung-jury-second-volume
   teaser: Following the success of <em>Hung Jury&#058; Testimonies of Genital Surgery</em>, we have received many requests to edit a second collection of testimonies exploring this important topic. In their surgical journeys and many years after, transsexual men continue to experience growth and changes in their gender and sexual embodiment. Our experiences offer wisdom and insight into male gender identity and sexuality that readers want to know more about. For this collection we are seeking testimonies that go beyond the nuts and bolts of surgical experience (although they may include some of these details) and explore a wider range of topics and issues.
 
-- title: Letters from Our Partners
+- id: letters-from-our-partners
+  title: Letters from Our Partners
   is_open: true
   publisher: Transgress Press
   contact: johnson.jordon@gmail.com
