@@ -1,6 +1,7 @@
 - id: hung-jury-second-volume
   title: HUNG JURY&#058; Testimonies of Genital Surgery by Transsexual Men (Second Volume)
   is_open: true
+  due_date:
   publisher: Transgress Press
   contact: cocktalkbook@gmail.com
   contact_url: mailto:cocktalkbook@gmail.com
@@ -10,6 +11,7 @@
 - id: letters-from-our-partners
   title: Letters from Our Partners
   is_open: true
+  due_date:
   publisher: Transgress Press
   contact: johnson.jordon@gmail.com
   contact_url: mailto:johnson.jordon@gmail.com
@@ -19,8 +21,10 @@
 - id: letters-for-our-children
   title: Letters for Our Children
   is_open: true
+  due_date: January 20, 2015
   publisher: Transgress Press
   contact:
   contact_url:
   author_or_editor: Edited by Jordan Rice & Nathan Ezekiel
-  teaser: Information Coming Soon
+  teaser: We are seeking contributions for a book collection of essays by parents who are trans (to be published by Transgress Press) provisionally titled&#058; <em>Letters for our Children&#058; Voices of Transgender Parents</em>. In this collection we seek to expand the range of stories that reflect our relationships with our children, our place within our families, and our paths as individuals. We define “trans” broadly, welcoming contributions from parents with a range of trans identities and perspectives, including but not limited to trans women, trans men, men and women with transsexual histories and people with non-binary identities such as genderqueer, agender or gender-fluid.
+  full_description: 
