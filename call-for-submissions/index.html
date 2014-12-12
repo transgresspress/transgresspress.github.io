@@ -17,7 +17,7 @@ title: Call for Submissions | Transgress Press
 								<div class="title">
 									<h1><a href="#"> {{ cfp.title }}</a></h1>
 									  <div class="author"><a href="">{{ cfp.author_or_editor }}</a></div>
-									  {% if cfp.due_date == nil %}{% else  %}<br >Due {{ cfp.due_date  }} {% endif %}
+									  {% if cfp.due_date == nil %}<br /><br />{% else  %}<br >Due {{ cfp.due_date  }}<br />{% endif %}<a href="{{ cfp.contact_url }}">{{ cfp.contact }}</a>
 								</div><!-- title -->
                                                                 <p class="description">
                                                                         {{ cfp.teaser }} {% if cfp.description == nil %}{% else %} <a href="{{ page.url }}/{{ cfp.id }}">READ MORE</a> {% endif  %}
