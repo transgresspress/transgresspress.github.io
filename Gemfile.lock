@@ -1,9 +1,0 @@
-GEM
-  specs:
-    jekyll-sitemap (0.7.0)
-
-PLATFORMS
-  ruby
-
-DEPENDENCIES
-  jekyll-sitemap
