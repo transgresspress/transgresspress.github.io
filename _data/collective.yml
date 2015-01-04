@@ -77,11 +77,3 @@
   position: Graphic Designer
   description: <strong>Trace Peterson</strong> is a trans lady graphic designer and runs PTRSN Design in Brooklyn. She specializes in print design and identity/logos/signage. Clients have included Unnameable Books (store signage and logo/identity), Ahsahta Press (print design), Nightboat Books (print design), and numerous other publishers. Peterson is also a poet and co-edited the recent anthology <em>Troubling the Line&#058; Trans and Genderqueer Poetry and Poetics</em>."
   image_file: staff_trace.png
-
-- id: ethan-daniel
-  name: Ethan Daniel
-  is_editor: true
-  is_advisor: false
-  position: Webmaster
-  description: <strong>Ethan Daniel</strong> has created and currently maintains websites for a few up-coming nonprofits and businesses.  He also maintains a personal website documenting his transition over the past 10+ years.
-  image_file: staff_ethan.jpg
