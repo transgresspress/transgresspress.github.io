@@ -1,0 +1,62 @@
+---
+layout: books
+title: Love, Always | Transgress Press
+book-id: love-always
+---
+
+{% for book in site.data.books %}
+
+  {% if book.id == page.book-id %}
+
+    <div class="main single-view-page" role="main">
+			<div class="page-title">
+				<h2>books</h2>
+				<small>{{ book.title }}</small>
+			</div><!-- page title -->
+
+			<div class="container">
+					<section class="single-view">
+						<aside>
+							<div class="image">
+								<img class="book" src="/img/books/{{ book.image_file }}" width=230 alt="book cover" />
+							</div><!-- image -->
+						</aside><!-- sidebar left -->
+
+						<article>
+							<div class="title-book">
+								<h1 class="title">{{ book.title }}</h1><!-- title -->
+								<h2 class="subtitle">{{ book.subtitle }}</h2><!-- subtitle -->
+
+								<div class="author">
+									{{ book.author_or_editor }}<small> <span class="bull">&bull;</span> ${{ book.price }}</small>
+								</div><!-- author -->
+								<br />
+								
+								<div class="count-book">
+									<span>${{ book.price }}</span>
+									<small>USD</small>
+								</div>
+							</div><!-- title book -->
+
+                                                        <div class="purchase">
+
+                                                          {% include widgets/button_purchase.html %}
+
+                                                        </div>
+
+							<div class="description">
+								<strong>Description:</strong>
+								<p>
+									{{ book.description }}
+								</p>
+							</div><!-- description -->
+						</article>
+
+						<div class="clear">&nbsp;</div><!-- clear -->
+					</section><!-- single view -->
+			</div><!-- container -->
+		</div><!-- main -->  
+
+  {% endif %}
+
+{% endfor %}
