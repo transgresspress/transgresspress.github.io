@@ -33,12 +33,9 @@ title: Books | Transgress Press
 
                                                                        <!-- purchase button -->
 
-                                                                        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="paypal"><input name="cmd" type="hidden" value="_s-xclick"><br>
-									  <input name="hosted_button_id" type="hidden" value="{{ book.paypal_id }}"><br>
-									  <input alt="PayPal - The safer, easier way to pay online!" name="submit" src="/img/button_purchase.png" type="image">
-								        </form>
+                                                                       <br /><br />
 
-                                                                        <!-- end purchase button -->
+                                                                       {% include widgets/button_purchase.html %}
 
 								</div><!-- title -->
 
